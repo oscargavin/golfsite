@@ -12,7 +12,7 @@ function Header() {
         <header className="backdrop-blur bg-white/50 flex flex-row justify-around py-5 shadow-md pt-5">
             <Link href="/" className="flex flex-row items-center cursor-pointer">
                 <Image src="/logo.png" alt="golf" width={50} height={50} />
-                <h1 className="font-semibold text-xl">Golfer's Hub</h1>
+                <h1 className="font-semibold text-xl">Golfers Hub</h1>
             </Link>
             <div className="flex flex-row space-x-10">
                 <Link href="/" className="flex flex-row items-center space-x-3">
