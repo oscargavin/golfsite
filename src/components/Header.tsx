@@ -23,7 +23,7 @@ function Header() {
                     <MdGolfCourse />
                     <p className="transition duration-150 border-b-2 border-transparent hover:border-green-500 pt-[0.2rem]">Courses</p>
                 </Link>
-                <Link href="/" className="flex flex-row items-center space-x-3 ">
+                <Link href="/profile" className="flex flex-row items-center space-x-3 ">
                     <FaUserCircle />
                     <p className="transition duration-150 border-b-2 border-transparent hover:border-green-500 pt-[0.2rem]">Profile</p>
                 </Link>
