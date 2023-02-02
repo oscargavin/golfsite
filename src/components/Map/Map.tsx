@@ -6,7 +6,6 @@ import { EditControl } from "react-leaflet-draw";
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 
-
 function Map() {
     const _onCreate = (e: any) => console.log(e);
     const _onEdited = (e: any) => console.log(e);
