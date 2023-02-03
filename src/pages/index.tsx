@@ -23,10 +23,10 @@ const Home: NextPage = () => {
 
       <div className='h-screen rsg-background'>
         <Header />
-        <div className='flex flex-row flex-wrap justify-center pt-16'>
-          <Card image="/tourn.png" alt="golf_images" title="Tournaments" description='The annual Golf Classic tournament card features a beautiful 18-hole course surrounded by scenic views. Participants will enjoy a day of friendly competition while playing on well-manicured greens' />
-          <Card image="/round.png" alt="round" title="Rounds" description='Look back on your recent rounds, alongside each shot' />
-          <Card image="/golf.png" alt="golf" title="Leaderboards" description='See who is playing well in current tournaments' />
+        <div className='flex flex-row flex-wrap justify-center pt-32'>
+          <Card image="/tourn.png" alt="golf_images" title="Tournaments" description='The annual Golf Classic tournament card features a beautiful 18-hole course surrounded by scenic views. Participants will enjoy a day of friendly competition while playing on well-manicured greens' link="/" />
+          <Card image="/round.png" alt="round" title="Courses" description='Look back on your recent rounds, alongside each shot' link="/courses" />
+          <Card image="/golf.png" alt="golf" title="Leaderboards" description='See who is playing well in current tournaments' link="/" />
         </div>
       </div>
     </div>

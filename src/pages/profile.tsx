@@ -11,7 +11,7 @@ const Profile: NextPage = () => {
         <div className='linear-background h-screen'>
             <Header />
             <div className='flex flex-row justify-around pt-24 mx-24'>
-                <ProfileDetails image="/logo.png" alt="Profile Picture" title="John Doe" email="johndoe@email.com" />
+                <ProfileDetails image="/profile.png" alt="Profile Picture" title="Max Church" email="mchurch@churchmail.com" />
                 <div className='w-3/5 rounded-lg shadow-lg'>
                     <Table />
                 </div>
