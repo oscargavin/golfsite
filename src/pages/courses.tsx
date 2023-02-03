@@ -8,10 +8,10 @@ import Map from "@/components/Map";
 
 const Courses: NextPage = () => {
     return (
-        <div className="gradient-background h-screen">
+        <div className="linear-background h-screen">
             <Header />
             <div className="flex justify-center mt-16">
-                <div className="w-2/5 rounded-md overflow-hidden">
+                <div className="w-2/5 rounded-md shadow-2xl overflow-hidden">
                     <Map />
                 </div>
             </div>
